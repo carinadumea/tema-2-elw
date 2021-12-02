@@ -1,0 +1,341 @@
+body {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 900;
+    margin: 0 auto;
+    background-color:#f05f41;
+    color:#3a0f07;
+    text-align: center;
+}
+header{
+    height: 60vh;
+    padding: 8% 5% 4% 5%;
+    background-image: url("poze/orange-audience.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left!important;
+}
+h1{
+    margin: 0;
+    font-size: 11em;
+    color: #f05f41;
+    text-shadow:-10px 10px #3a0f07;
+}
+span{
+    display: inline-block;
+    margin: 0 auto;
+    text-shadow: -10px 10px #3a0f07;
+}
+.twisted{
+    transform: scale(-1, 1);
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+.container{
+    background-color:#f05f41;
+    height: auto;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+.gradient{
+    background-image: linear-gradient(173deg, #fab169ad 20%, #f05f41 50%, #3a0f07 100%);
+}
+.gradient h2{
+    padding-top: 2%;
+    color: #3a0f07;
+    font-size: 2em;
+    float: right!important;
+    margin: 0;
+    padding-bottom: 30px;
+}  
+nav {
+    content: "";
+    clear: both;
+
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    height: auto;
+    font-size: 20px;
+    z-index: 101;
+    padding-left: 10px;
+}
+.navi{
+    background-color:#f05f41;
+}
+nav h1{
+    font-size: 30px;
+    float: left;
+    text-shadow: none;
+    color: #3a0f07;
+    padding: 10px 0 0 20px;
+}
+nav img{
+    float: left;
+    width: 50px;
+}
+nav ul{
+    float:left;
+}
+nav a{
+    text-decoration: none;
+    color:#3a0f07;
+}
+
+nav a:hover{
+    text-decoration:none;
+    color:#fab169;
+}
+
+.desc{
+    clear: both;
+    font-size: 1.25em;
+    color:#3a0f07;
+    text-shadow: #fab169 1px 1px;
+    text-align: center;
+    width: 80%;
+    padding: 45vh 10% 0 10%;
+    margin: 0;
+}
+.questions{
+    padding: 45vh 0 0 0;
+    height: fit-content;
+    width: 100%;
+    z-index: 1;
+}
+.square{
+    content: "";
+    display: flex;
+    float: left;
+    width: 24.5%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+h3{
+    float: left;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 2em;
+    color: #fab169;
+    text-shadow:#3a0f07 3px 3px;
+    border-left: 5px #3a0f07 solid;
+    width: auto;
+}
+h3:hover{
+    color: #3a0f07;
+    float:left;
+    border-left: 5px #fab169 solid;
+    text-shadow:#fab169 3px 3px;
+}
+.tickets h3{
+    padding-top: 2%;
+    color: #3a0f07;
+    font-size: 2em;
+    float: none;
+    margin: 0;
+}
+.third{
+    content:"";
+    float:left;
+    display:flex;
+    width: 33.33%;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 300px;
+}
+.third h4{
+    writing-mode:initial;
+    text-align:center!important;
+    border:none!important;
+    margin-bottom:0;
+    font-size:2.5em;
+}
+.third h5{
+    margin:0;
+    font-size:2em;
+    color:#3a0f07;
+    text-shadow: #fab169 3px 3px;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.info{
+    float: left;
+    color:#3a0f07;
+    text-shadow: #fab169 1px 1px;
+    margin: 10%;
+    text-align: center;
+}
+.button{ 
+    padding-top: 500px;
+}
+.buton{ 
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    font-size: 3em;
+    background-color:#f05f41;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+}
+a{
+    text-decoration: none;
+    color:#fab169;
+}
+a:hover{
+    text-decoration:none;
+    color:#3a0f07;
+}
+.head{
+    height: 50vh; 
+}
+h2{
+    content:"";
+    clear:both;
+    float:left;
+    font-size: 80px;
+    padding: 3% 0 0 50px;
+}
+.det{
+    background-image: url("poze/red-jazz-ed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.see{
+    background-image: url("poze/pink-audience.ed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.tickets{
+    background-image: url("poze/t-o-pexels-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.cont{
+    background-image: url("poze/yellow-background.ed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+}
+.our-details{
+    clear: both;
+    display:block;
+    width: 100%;
+    min-height: 250px;
+    padding: 3% 0 2.5% 0;
+}
+
+.call-to-action{
+    color:#3a0f07;
+    font-size: 1.5em;
+}
+.bilete{
+    content: "";
+    clear: both;
+    text-align: center!important;
+    width: 100%;
+    height: auto;
+}
+.third{
+    content:"";
+    float:left;
+    display:flex;
+    width: 33.33%;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+}
+.bilete h3{
+    font-size: 3em!important;
+    color:#3a0f07;
+    float: none!important;
+    text-shadow: #fab169 3px 3px;
+    padding-top: 3%;
+    writing-mode:initial;
+    text-align:center!important;
+    border:none!important;
+}
+.bilete h3:hover{
+    font-size: 3em!important;
+    color:#fab169;
+    float:none!important;
+    text-shadow: #3a0f07 3px 3px;
+}
+.bilete ul{
+    font-size:1.15em;
+    list-style-type: none;
+    margin:5% 10% 5% 10%;
+    padding: 2%;
+    /*background-color:#3a0f07;*/
+    border:#3a0f07 3px solid;
+    border-radius: 25px;
+    background-color:#fab1695b;
+}
+.bilete li{
+    color:#3a0f07;
+    padding: 5px;
+}
+.not-included{
+    text-decoration: line-through;
+    text-decoration-color: #fab169;
+}
+.third h4{
+    margin-bottom:0;
+    font-size:2.5em;
+}
+.third h5{
+    margin:0;
+    font-size:2em;
+    color:#3a0f07;
+    text-shadow: #fab169 3px 3px;
+}
+.provided{
+    width:100%;
+    text-align: center;
+    justify-content: space-between;
+}
+.provided h2{
+    padding-top: 2%;
+    color: #3a0f07;
+    font-size: 2em;
+    float: none;
+    margin: 0;
+}
+.half{
+    width: 40%;
+    float: left;
+    padding: 5% 5% 20% 5%;
+}
+p{
+    font-size: 22px;
+}
+.f-home{
+    color:#f05f41;
+    text-shadow: #3a0f07 4px 2px;
+
+}
+
+footer{
+    text-align: center;
+    color:#3a0f07;
+    padding: 45vh 0 10px 0;
+}
